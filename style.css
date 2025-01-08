@@ -1,0 +1,99 @@
+/* Global-Style */
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    background-color: tomato;
+    border: none;
+    border-radius: 7px;
+    color: #ffffff;
+
+}
+button:hover{
+    background-color: rgb(80, 80, 250);
+}
+header{
+    background-image: url(./asset/developer.png),url(./asset/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+.frist{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+.frist h3{
+    font-family: Open Sans;
+font-size: 45px;
+font-weight: 800;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+}
+.frist > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.frist > ul > li{
+ list-style: none;
+}
+.frist > ul > li >a{
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+}
+.frist > ul > li >a:hover{
+    color: aqua;
+}
+/* ====================
+Header 2 */
+.header-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 150px;
+}
+
+.header-2>.subtittle> h3 {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+}
+.header-2>.subtittle{
+    gap: 20px;
+}
+.header-2>.subtittle> h1{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 85px;
+font-weight: 700;
+line-height: 116px;
+letter-spacing: 0%;
+text-align: left;
+}
+.header-2>.subtittle>p{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+
+}
